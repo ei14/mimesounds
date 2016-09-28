@@ -1,0 +1,68 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(../Roboto.ttf);
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family: Roboto, sans-serif;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+	position: absolute;
+}
+
+.button {
+	position: absolute;
+	top: 0;
+	height: 100vh;
+    font-size: 5vw;
+}
+
+#back {
+	left: 0;
+	width: 20vw;
+	text-align: center;
+	line-height: 100vh;
+	background-color: gray;
+}
+
+#sound {
+	left: 20vw;
+	width: 60vw;
+	background-color: white;
+}
+
+#skip {
+	left: 80vw;
+	width: 20vw;
+	text-align: center;
+	line-height: 100vh;
+	background-color: gray;
+}
+
+#message {
+	width: 50vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center
+}
+
+#credit {
+	position: absolute;
+	left: 0;
+	width: 60vw;
+	text-align: center;
+	height: 5vh;
+	font-size: 5vh;
+	top: 94vh;
+}
